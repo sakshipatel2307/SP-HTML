@@ -1,0 +1,303 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.row1
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.row2
+{
+    height: 90px;
+    width: 100%;
+    background-color: white;
+}
+.map
+{
+    background-image: url(image/img1.png);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    right: 30%;
+}
+.s
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 1.8%;
+    right: 26%;
+}
+.person
+{
+    background-image: url(image/img2.png);
+    height: 22px;
+    width: 22px;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    right: 21%;
+}
+.l
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 1.8%;
+    right: 12%;
+}
+.like
+{
+    background-image: url(image/img3.png);
+    height: 22px;
+    width: 22px;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    right: 7%;
+}
+.cart
+{
+    background-image: url(image/img4.png);
+    height: 22px;
+    width: 22px;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    right: 4.5%;
+}
+.happen
+{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 10.5%;
+    left: 6%;
+}
+.w
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 11.5%;
+    left: 38%;
+}
+.m
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 11.5%;
+    left: 45%;  
+}
+.haps
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 11.5%;
+    left: 50.5%;
+}
+.t
+{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid black;
+    top: 10%;
+    right: 10%;
+}
+.search
+{
+    position: relative;
+    left: 78%;
+    top: 30%;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+}
+::placeholder
+{
+    padding-left:20px;
+    font-size: 17px;
+}
+.slide
+{
+    background-image: url(image/img5.png);
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+.title1
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    left: 45.5%;
+    top: 94%;
+}
+.line1
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 590px;
+    height: 0.5px;
+    left: 5%;
+    top: 95%;
+}
+.line2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 590px;
+    height: 0.5px;
+    right: 5%;
+    top: 95%;
+}
+.gallery1
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+.img1 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;   
+}
+.img2 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.img3 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.img4 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.gallery2
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:40px;
+}
+.img5 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;   
+}
+.img6 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.img7 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.img8 img
+{
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.title2
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    left: 45.5%;
+    top: 1420px;
+}
+.line3
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 590px;
+    height: 0.5px;
+    left: 5%;
+    top: 1427px;
+}
+.line4
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 590px;
+    height: 0.5px;
+    right: 6.5%;
+    top: 1428px;
+}
+
+.gallery3
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:60px;
+}
+.vid video
+{
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;   
+}
+.vid img
+{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+.gallery4
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:80px;
+}
+.gallery5
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:100px;
+}
